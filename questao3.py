@@ -17,7 +17,7 @@ if p5 == "S":
     acumulador = acumulador +1
 
 
-if acumulador == 1:
+if acumulador == 0 or acumulador == 1:
     print("Voce é inocente!")
 
 if acumulador == 2:
